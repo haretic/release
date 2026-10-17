@@ -1,4 +1,4 @@
-# haretic: Android 17 with mainline-fork kernel for Rabbit R1 (MT6765)
+# haretic: Android 17 with mainline-fork kernel for rabbit R1 (MT6765)
 Flashable images for the rabbit R1, to be installed the same way the original rabbit firmware package is, or via mtkclient.
 Upstream Linux kernel 7.1 with driver forward ports from the MTK BSP kernel tree, running LineageOS 24 (Android 17).
 
