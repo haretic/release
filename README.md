@@ -3,6 +3,7 @@ Flashable images for the rabbit R1, to be installed the same way the original ra
 Upstream Linux kernel 7.1 with driver forward ports from the MTK BSP kernel tree, running LineageOS 24 (Android 17).
 
 Port status: alpha
+
 stable during runtime, not quite ready as daily driver yet. power consumption remains the biggest hurdle.
 
 ## What works
