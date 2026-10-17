@@ -2,6 +2,9 @@
 Flashable images for the rabbit R1, to be installed the same way the original rabbit firmware package is, or via mtkclient.
 Upstream Linux kernel 7.1 with driver forward ports from the MTK BSP kernel tree, running LineageOS 24 (Android 17).
 
+Port status: alpha
+stable during runtime, not quite ready as daily driver yet. power consumption remains the biggest hurdle.
+
 ## What works
 - WiFi
 - Bluetooth
@@ -23,3 +26,12 @@ Upstream Linux kernel 7.1 with driver forward ports from the MTK BSP kernel tree
 - SoC deep sleep (SPM suspend): the device suspends to idle only (WIP)
 - Calls and SMS untested
 - Camera runs at reduced resolution/frame rate (CPU debayering, no hardware ISP)
+
+# rabbitOS
+rabbitOS imposed certain limitations on the hardware, obviously to save battery, which is a sensible thing to do on this device.
+However, the haretic project endorses user choice, so these limitations have been removed.
+
+- The CPU and GPU are allowed their full power budgets.
+- The charging circuitry limits can be configured.
+- The screen refresh rate can be configured (the R1 panel is 100Hz capable)
+- Thermal management is relaxed, to a safe point.
