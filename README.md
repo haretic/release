@@ -14,7 +14,7 @@ stable during runtime, not quite ready as daily driver yet. power consumption re
 - SoC sleep states: CPU idle through MCDI, including cluster power-off
 - Display with PowerVR GE8320 GPU acceleration (stock RabbitOS userspace on a ported DDK 1.13 kernel driver)
 - Touchscreen, side button and scroll wheel
-- Camera (Hi-846) through libcamera with a software ISP, front and back by turning the motor
+- Camera (Hi-846) through libcamera with hardware ISP, front and back by turning the motor
 - Accelerometer and gyroscope
 - Audio: speaker and microphone
 - GPS
@@ -22,11 +22,10 @@ stable during runtime, not quite ready as daily driver yet. power consumption re
 - Battery, fuel gauge and charging, with Lineage charging limit (down to 50%)
 - USB device mode and adb
 - Encrypted /data (FBE), release-keys signed builds, A/B updates
+- SoC deep sleep (SPM suspend)
 
 ## What doesn't
-- SoC deep sleep (SPM suspend): the device suspends to idle only (WIP)
 - Calls and SMS untested
-- Camera runs at reduced resolution/frame rate (CPU debayering, no hardware ISP)
 
 # rabbitOS
 rabbitOS imposed certain limitations on the hardware, obviously to save battery, which is a sensible thing to do on this device.
