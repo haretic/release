@@ -4,7 +4,8 @@ Upstream Linux kernel 7.1 with driver forward ports from the MTK BSP kernel tree
 
 Port status: alpha
 
-stable during runtime, not quite ready as daily driver yet. power consumption remains the biggest hurdle.
+stable during runtime, not quite ready as daily driver yet.
+power performance is fixed.
 
 ## What works
 - WiFi
