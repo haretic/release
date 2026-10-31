@@ -37,7 +37,7 @@ LineageOS 24 ui makeover for 480x640 (in progress)
 rabbitOS imposed certain limitations on the hardware, obviously to save battery, which is a sensible thing to do on this device.
 However, the haretic project endorses user choice, so these limitations have been removed.
 
-- The CPU and GPU are allowed their full power budgets.
+- The CPU and GPU are allowed their full power budgets and overclock settings exist
 - The charging circuitry limits can be configured.
 - The screen refresh rate can be configured (the R1 panel is 100Hz capable)
 - Thermal management is relaxed, to a safe point.
