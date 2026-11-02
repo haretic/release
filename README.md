@@ -32,6 +32,7 @@ power performance is fixed.
 
 ## To Do
 LineageOS 24 ui makeover for 480x640 (in progress)
+camera calibration - currently over- and underexposes and gets grainy and stuck pixels
 
 # rabbitOS
 rabbitOS imposed certain limitations on the hardware, obviously to save battery, which is a sensible thing to do on this device.
