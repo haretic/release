@@ -1,5 +1,6 @@
 # haretic: Android 17 with mainline-fork kernel for rabbit R1 (MT6765)
 Flashable images for the rabbit R1, to be installed via [the haretic installer](https://github.com/haretic/installer)
+
 Upstream Linux kernel 7.3 with driver forward ports from the MTK BSP kernel tree, running LineageOS 24 (Android 17).
 
 LineageOS 24 was completely redesigned to fit a 480x640 screen.
