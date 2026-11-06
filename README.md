@@ -26,6 +26,7 @@ power performance is fixed.
 - USB device mode and adb
 - Encrypted /data (FBE), release-keys signed builds, A/B updates
 - SoC deep sleep (SPM suspend)
+- OTA updates from the device itself
 
 ## What doesn't
 - Calls and SMS untested
