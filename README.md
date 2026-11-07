@@ -21,27 +21,7 @@ LineageOS 24 was completely redesigned to fit a 480x640 screen.
 Port status: beta, stable during runtime
 
 ## What works
-- WiFi
-- Bluetooth
-- BLE
-- RIL/Mobile data (telephony untested)
-- SoC sleep states: CPU idle through MCDI, including cluster power-off
-- Display with PowerVR GE8320 GPU acceleration (stock RabbitOS userspace on a ported DDK 1.13 kernel driver)
-- Touchscreen, side button and scroll wheel
-- Camera (Hi-846) through libcamera with hardware ISP, front and back by turning the motor
-- Accelerometer and gyroscope
-- Audio: speaker and microphone
-- GPS
-- Hardware video encode/decode (Codec2)
-- Battery, fuel gauge and charging, with Lineage charging limit (down to 50%)
-- USB device mode and adb
-- Encrypted /data (FBE), release-keys signed builds, A/B updates
-- SoC deep sleep (SPM suspend)
-- OTA updates from the device itself
-
-## What doesn't
-- Calls and SMS untested
-- tell me in GitHub issues
+removed - see https://github.com/haretic
 
 # rabbitOS
 rabbitOS imposed certain limitations on the hardware, obviously to save battery, which is a sensible thing to do on this device.
