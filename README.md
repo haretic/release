@@ -18,7 +18,7 @@ Upstream Linux kernel 7.3 with driver forward ports from the MTK BSP kernel tree
 
 LineageOS 24 was completely redesigned to fit a 480x640 screen.
 
-Port status: beta, stable during runtime
+Port status: stable
 
 ## What works
 removed - see https://github.com/haretic
